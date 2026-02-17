@@ -1,9 +1,9 @@
 {
   "name": "The Root of All Evil",
-  "logo": "/images/penguin-cover.png",  // Upload your penguin image to /images/ first if you want
-  "favicon": "/images/penguin-favicon.ico",  // optional
+  "logo": "/images/penguin-cover.png",  // Change to your penguin image path once uploaded
+  "favicon": "/images/penguin.ico",     // optional, upload a small icon if you have one
   "colors": {
-    "primary": "#1E40AF",  // dark blue for tech feel
+    "primary": "#1E40AF",               // Dark blue theme
     "light": "#EFF6FF",
     "dark": "#0F172A",
     "anchors": {
@@ -20,18 +20,14 @@
   "navigation": [
     {
       "group": "Introduction",
-      "pages": ["foreword"]
-    },
-    {
-      "group": "Book 1: The Invisible Backbone",
       "pages": [
-        "book1/prologue",
-        "book1/chapter-1-birth-of-dns",
-        "book1/chapter-2-planting-first-roots",
-        "book1/chapter-3-quiet-guardians",
-        "book1/chapter-4-cracks-foundation"
+        "foreword"                        // This links to pages/foreword.mdx
       ]
     }
-    // Add more groups/books later
+    // Add more groups later, e.g.:
+    // {
+    //   "group": "Book 1: The Invisible Backbone",
+    //   "pages": ["book1/prologue", "book1/chapter-1-birth-of-dns"]
+    // }
   ]
 }
