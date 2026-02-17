@@ -1,0 +1,37 @@
+{
+  "name": "The Root of All Evil",
+  "logo": "/images/penguin-cover.png",  // Upload your penguin image to /images/ first if you want
+  "favicon": "/images/penguin-favicon.ico",  // optional
+  "colors": {
+    "primary": "#1E40AF",  // dark blue for tech feel
+    "light": "#EFF6FF",
+    "dark": "#0F172A",
+    "anchors": {
+      "from": "#1E40AF",
+      "to": "#3B82F6"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "GitHub Repo",
+      "url": "https://github.com/borealforester/Foreng-Mintlify"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Introduction",
+      "pages": ["foreword"]
+    },
+    {
+      "group": "Book 1: The Invisible Backbone",
+      "pages": [
+        "book1/prologue",
+        "book1/chapter-1-birth-of-dns",
+        "book1/chapter-2-planting-first-roots",
+        "book1/chapter-3-quiet-guardians",
+        "book1/chapter-4-cracks-foundation"
+      ]
+    }
+    // Add more groups/books later
+  ]
+}
